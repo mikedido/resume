@@ -1,0 +1,308 @@
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+.image {
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+    background:url(http://static.debray-jerome.fr/49/images/slideshow/1.jpg) no-repeat 0px 0px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin: 0 auto;
+}
+
+.center-div {
+    height: 50%;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.topnav-left{
+    float: left;
+    margin: 3px 0 0 10px;
+}
+
+.topnav-right {
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+.topnav-right a {
+    margin: 0 4px 0 4px;
+}
+
+body{
+    background-color: #eeeeee;
+    margin: 0 0 0 0;
+}
+
+.social-icon{
+    border-radius: 50%;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    display: block;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    width: 30px;
+}
+
+.list-inline.list-social {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+}
+
+.fa {
+    padding-top: 5px;
+}
+.banner-content li a {
+     color: black;
+     border: none;
+}
+.social-icon {
+    display: block;
+    height: 32px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-align: center;
+    text-shadow: none;
+    width: 32px;
+}
+
+.wrapper2 {
+    height: 50%;
+    width: 50%;
+    position: fixed;
+}
+
+.title {
+    margin: 0px auto;
+    margin-top: 10px;
+	overflow: hidden;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.info {
+    display: table;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0 auto;
+    visibility: visible;
+}
+
+.center {
+    text-align: center;
+}
+
+.text {
+    font-size: 2.2vw;
+}
+
+h1 {
+    font-size: 112px;
+    font-size: 6.2vw;
+    letter-spacing: -2px;
+    line-height: 110%;
+    font-family: Semibold;
+    left:10%;
+    margin: 0 0 0 0;
+}
+
+.contact {
+    float:left;
+    width:50%;
+    left: 50%;
+    padding-top: 20vh;
+}
+
+.about {
+    background-color:rgba(243, 241, 239, 1);
+    width:50%;
+    padding-top: 10vh;
+    left: 50%;
+    right: 10%;
+    padding-bottom: 34vh;   
+    min-height:170px;
+}
+
+.about p {
+    margin-left:40px;
+}
+
+.about h2 {
+    margin-left:40px;
+}
+
+.about h3 {
+    margin-left:40px;
+}
+
+h2 {
+    font-size: 3.242rem;
+    line-height: 4.5rem;
+    margin-top: 3rem;
+}
+
+h1, h2, p, a {
+    color: #000;
+}
+
+p {
+    font-size: 1.25vw;
+    line-height: 180%;
+    font-family: Regular;
+    margin-bottom: 6%;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+ .wrapper:after {
+     clear: both;
+ }
+ 
+ .wrapper > div {
+     min-height: 200px;
+     float: left;
+ }
+
+@media screen and (max-width: 800px) {
+    .wrapper2 {
+        position: relative;
+        width: 100%;
+    }
+    .wrapper  > div {
+        float: none;
+        width: 100%;
+    }
+    .contact {
+        float:left;
+        width:50%;
+        left: 50%;
+        padding-top: 6vh;
+    }
+    .contact> h1 {
+        position: relative;
+        font-size: 112px;
+    }
+
+    .about p {
+        font-size: 20px;
+        line-height: 180%;
+        font-family: Regular;
+        margin-bottom: 6%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .about h2, h3 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .wrapper2 {
+        position: relative;
+        width: 100%;
+    }
+    .wrapper  > div {
+        float: none;
+        width: 100%;
+    }
+    .contact {
+        float:left;
+        width:50%;
+        left: 50%;
+        padding-top: 6vh;
+    }
+    .contact> h1 {
+        position: relative;
+        font-size: 100px;
+    }
+
+    .about p {
+        font-size: 20px;
+        line-height: 180%;
+        font-family: Regular;
+        margin-bottom: 6%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .about h2, h3 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
