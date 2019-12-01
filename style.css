@@ -47,7 +47,7 @@
 }
 #myBtn:hover i {
     color: #fff;
-    top: -5px;
+    top: -f5px;
 }
 
 .image {
@@ -59,6 +59,7 @@
     height:90px;
     background:url(http://static.debray-jerome.fr/49/images/slideshow/1.jpg) no-repeat 0px 0px;
     margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .footer {
@@ -201,6 +202,7 @@ h1 {
 
 .about p {
     margin-left:40px;
+    text-align: justify;
 }
 
 .about h2 {
@@ -243,6 +245,9 @@ a {
  }
 
 @media screen and (max-width: 800px) {
+    .image {
+        margin-top:20px;
+    }
     .wrapper2 {
         position: relative;
         width: 100%;
@@ -271,6 +276,14 @@ a {
         margin-left: 20px;
     }
 
+    .contact h1 {
+        font-size: 60px;
+    }
+
+    .contact h3 {
+        font-size: 30px;
+    }
+
     .about h2, h3 {
         margin-right: 20px;
         margin-left: 20px;
@@ -283,6 +296,9 @@ a {
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 320px) and (max-width: 480px) {
+    .image {
+        margin-top:20px;
+    }
     .wrapper2 {
         position: relative;
         width: 100%;
@@ -309,6 +325,14 @@ a {
         margin-bottom: 6%;
         margin-right: 20px;
         margin-left: 20px;
+    }
+
+    .contact h1 {
+        font-size: 60px;
+    }
+
+    .contact h3 {
+        font-size: 30px;
     }
 
     .about h2, h3 {
